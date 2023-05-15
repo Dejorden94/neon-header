@@ -12,3 +12,25 @@ body {
     font-size: 2rem;
     font-family: sans-serif;
 }
+
+.neon {
+    height: 80rem;
+    background: #252a34;
+}
+
+.neon h1 {
+    color: white;
+}
+
+.cards {
+    display: flex;
+    gap: 2rem;
+}
+
+.card {
+    width: 20rem;
+    height: 20rem;
+    background: red;
+    list-style: none;
+
+}
