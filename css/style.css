@@ -163,3 +163,14 @@ body {
         transform: translateY(0);
     }
 }
+
+@media screen and (max-width: 37.5rem) {
+    .neon {
+        padding: 4rem;
+        height: auto;
+    }
+
+    .circle--second {
+        display: none;
+    }
+}
