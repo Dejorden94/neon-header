@@ -23,6 +23,14 @@ body {
     gap: 2rem;
 }
 
+.circle {
+    height: 40rem;
+    width: 40rem;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
 .neon h1 {
     color: white;
     font-size: 300%;
