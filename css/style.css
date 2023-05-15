@@ -32,6 +32,8 @@ body {
     border-radius: 50%;
     position: absolute;
     box-shadow: inset 0 0 3rem 0 rgba(0, 0, 0, 0.6);
+    animation-name: colorRotation;
+    animation-duration: 5s;
 
 }
 
@@ -98,4 +100,14 @@ body {
 .card:nth-last-of-type(4)::after,
 .card:nth-last-of-type(6)::after {
     background: linear-gradient(#49FF00, #77D970);
+}
+
+@keyframes colorRotation {
+    form {
+        filter: hue-rotate(0);
+    }
+
+    to {
+        filter: hue-rotate(1turn);
+    }
 }
