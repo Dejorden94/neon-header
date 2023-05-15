@@ -69,8 +69,9 @@ body {
     font-size: 300%;
     animation-name: popup;
     animation-duration: 0.8s;
-    animation-delay: 1.4s;
+    animation-delay: 1.2s;
     animation-fill-mode: backwards;
+    z-index: 1;
 
 }
 
@@ -92,6 +93,11 @@ body {
     animation-name: popup;
     animation-duration: 0.8s;
     animation-fill-mode: backwards;
+    transition: 0.2s transform;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .card:nth-of-type(2) {
