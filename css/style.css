@@ -20,14 +20,19 @@ body {
     flex-direction: column;
     height: 80rem;
     background: #252a34;
+    gap: 2rem;
 }
 
 .neon h1 {
     color: white;
+    font-size: 300%;
 }
 
 .cards {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 
