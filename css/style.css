@@ -21,14 +21,39 @@ body {
     height: 80rem;
     background: #252a34;
     gap: 2rem;
+    position: relative;
 }
 
 .circle {
     height: 40rem;
     width: 40rem;
-    background: red;
     border-radius: 50%;
     position: absolute;
+
+}
+
+.circle--first {
+    top: 0;
+    left: 0;
+    background: linear-gradient(#2FA4FF, #00FFDD);
+}
+
+.circle--second {
+    right: 0;
+    top: 0;
+    background: linear-gradient(#49FF00, #77D970);
+}
+
+.circle--third {
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(#49FF00, #77D970);
+}
+
+.circle--fourth {
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(#2FA4FF, #00FFDD);
 }
 
 .neon h1 {
