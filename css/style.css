@@ -22,6 +22,8 @@ body {
     background: #252a34;
     gap: 2rem;
     position: relative;
+    width: 100%;
+    overflow: hidden;
 }
 
 .circle {
@@ -33,26 +35,27 @@ body {
 }
 
 .circle--first {
-    top: 0;
-    left: 0;
+    top: -10%;
+    left: -10%;
     background: linear-gradient(#2FA4FF, #00FFDD);
+
 }
 
 .circle--second {
-    right: 0;
-    top: 0;
+    right: -10%;
+    top: -10%;
     background: linear-gradient(#49FF00, #77D970);
 }
 
 .circle--third {
-    left: 0;
-    bottom: 0;
+    left: -10%;
+    top: 50%;
     background: linear-gradient(#49FF00, #77D970);
 }
 
 .circle--fourth {
-    right: 0;
-    bottom: 0;
+    right: -10%;
+    top: 50%;
     background: linear-gradient(#2FA4FF, #00FFDD);
 }
 
