@@ -56,3 +56,9 @@ body {
     left: 0;
     background: linear-gradient(#2FA4FF, #00FFDD);
 }
+
+.card:nth-last-of-type(2)::after,
+.card:nth-last-of-type(4)::after,
+.card:nth-last-of-type(6)::after {
+    background: linear-gradient(#49FF00, #77D970);
+}
