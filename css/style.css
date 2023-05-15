@@ -39,6 +39,7 @@ body {
 .card {
     width: 20rem;
     height: 20rem;
-    background: red;
+    background: rgba(34, 40, 49, 0.8);
     list-style: none;
+    border: 0.1rem solid rgb(255, 255, 255, 0.6);
 }
