@@ -24,6 +24,7 @@ body {
     position: relative;
     width: 100%;
     overflow: hidden;
+    padding: 4rem;
 }
 
 .circle {
@@ -166,7 +167,6 @@ body {
 
 @media screen and (max-width: 37.5rem) {
     .neon {
-        padding: 4rem;
         height: auto;
     }
 
